@@ -1,0 +1,32 @@
+{
+  "name": "record-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "brfs": "^2.0.2",
+    "browserify": "^16.2.3",
+    "browserify-fs": "^1.0.0",
+    "crypto": "^1.0.1",
+    "cryptr": "^4.0.2",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.2.13",
+    "solc": "^0.5.7",
+    "truffle-hdwallet-provider": "^1.0.6",
+    "web3": "^1.0.0-beta.34"
+  }
+}
